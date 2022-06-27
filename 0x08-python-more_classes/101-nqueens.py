@@ -131,6 +131,7 @@ def coordinate_format(candidates):
 candidates = []
 candidates.append(board_column_gen())
 
+
 # proceed column by column, testing the rightmost
 for col in range(N):
     # start a new generation of the candidate list for every round of testing
