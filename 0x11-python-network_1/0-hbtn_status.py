@@ -2,7 +2,6 @@
 """Fetches https://alx-intranet.hbtn.io/status"""
 import urllib.request
 
-
 def fetcher():
     """fetcher"""
     with urllib.request.urlopen("https://alx-intranet.hbtn.io/status") as response:
